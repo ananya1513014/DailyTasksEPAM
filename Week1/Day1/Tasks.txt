@@ -1,0 +1,2 @@
+1. Create a calculator using java.
+2. Learning GIT commands, Attributes associated with them and Exploring the GIT environment. Prepare a document on the same.

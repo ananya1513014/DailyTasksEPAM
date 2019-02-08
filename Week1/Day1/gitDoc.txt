@@ -1,0 +1,30 @@
+GIT:
+Git is a distributed version control system for tracking changes in source code during software development.
+It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
+Its goals include speed, data integrity, and support for distributed, non-linear workflows.
+
+GIT COMMANDS:
+
+1. git init: create a new local repository.
+
+2. git clone: creates a working cope of a local repository or a remote server.
+
+3. git add: Adds one or more files to the index.
+
+4. git commit: commit changes to head but not to remote repository.
+	git commit -m "commit message"
+	git commit -a	: Commit any files added with git add, and also commit any files changed since then:
+
+5. git push: sends  changes to master branch of remote repository.
+
+6. git status: lists the files that  are changed and still needs to be added or committed.
+
+7. git grep "foo()": Search the working directory for foo().
+
+8. git checkout -- <filename>: If you mess up, you can replace the changes in your working tree with the last content in head:
+
+Changes already added to the index, as well as new files, will be kept.
+
+9. git log: lists the changes in the source code
+
+10. git tag 1.0.0 <commitID>:  can use tagging to mark a significant changeset, such as a release

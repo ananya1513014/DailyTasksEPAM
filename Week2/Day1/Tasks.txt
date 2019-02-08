@@ -1,0 +1,5 @@
+1.  Write a program that prints the working directory to the console.
+
+2.  Write a simple listing program that lists all the ”*.java” files within a specified directory (it is a path passed as a command line argument). Use the classes java.io.File and some utility methods like String.endsWith() and File.list().
+
+3.  Write a program that display the structure of a specified folder recursively.
